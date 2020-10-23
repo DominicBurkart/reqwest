@@ -82,7 +82,7 @@ lazy_static = "1.4"
 log = "0.4"
 mime = "0.3.7"
 percent-encoding = "2.1"
-tokio = { version = "0.2.5", default-features = false, features = ["tcp", "time"] }
+tokio = { version = "0.3.1", default-features = false, features = ["tcp", "time"] }
 pin-project-lite = "0.1.1"
 ipnet = "2.3"
 
@@ -121,7 +121,7 @@ serde = { version = "1.0", features = ["derive"] }
 libflate = "1.0"
 brotli_crate = { package = "brotli", version = "3.3.0" }
 doc-comment = "0.3"
-tokio = { version = "0.2.0", default-features = false, features = ["macros"] }
+tokio = { version = "0.3.1", default-features = false, features = ["macros"] }
 
 [target.'cfg(windows)'.dependencies]
 winreg = "0.7"
